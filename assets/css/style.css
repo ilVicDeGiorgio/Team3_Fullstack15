@@ -1,4 +1,12 @@
 @import url("../../components/common.css");
-@import url("../../components/homepage-card/index.css");
-@import url("../../components/button/index.css");
+@import url("../../components/Card_HOME/index.css");
+@import url("../../components/Header_Aside_HOME/index.css");
+@import url("../../components/Aside_Content_HOME/index.css");
+@import url("../../components/Navbar_HOME/index.css");
+@import url("../../components/1°Footer_HOME/index.css");
+@import url("../../components/2°Footer_HOME/index.css");
+@import url("../../components/3°Footer_Sticky_HOME/index.css");
+@import url("../../components/Main_HOME/index.css");
+@import url("../../components/ListaBrani_PLAYLIST/index.css");
+@import url("../../components/Navbar_PLAYLIST/index.css");
 @import url("home.css");
