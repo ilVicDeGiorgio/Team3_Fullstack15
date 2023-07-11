@@ -105,7 +105,13 @@ meter {
 }
 
 :root {
-  --primary-color: #fb6100;
+  --nero-color: #000000;
+  --nero-chiaro-color: #121212;
+  --grigio-scuro-color: #242424;
+  --grigio-chiaro-color: #A7A7A7;
+  --verde-color: #2FD566;
+  --primary-sfumatura-color: #559DF2
+  --primary-sfumatura-color: #AD2F95
   --primary-color--hover: #d65403;
 }
 
