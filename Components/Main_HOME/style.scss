@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+    "focus focus focus focus focus"
+    "card card card card card"
+    "play play play play play"
+    "card card card card card"; 
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-left: 370px;
+    margin-bottom: 100px;
+    background-color: #121212;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 10px;
+
+    
+    .focus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        height: 60px;
+        width: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: #121212;
+
+
+        div {
+            margin-top: 10px;
+            color: white;
+
+        }
+
+        .head1 {
+            font-size: x-large;
+            font-weight: bold;
+            margin-left: 10px;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .head2 {
+            font-weight: bold;
+            text-decoration: none;
+            color: #999898;
+            margin-right: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .focus_cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        div {
+            height: 240px;
+            width: 185px;
+            background-color: #242424;
+        }
+    }
+
+    .playSpoti {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 60px;
+        width: auto;
+        background-color: #121212;
+
+        div {
+            color: white;
+        }
+
+        .head3 {
+            font-size: x-large;
+            font-weight: bold;
+            margin-left: 10px;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .head4 {
+            font-weight: bold;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #999898;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .playSpoti_cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        div {
+            height: 240px;
+            width: 185px;
+            background-color: #242424;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+      max-width: 100%; // Utilizza la larghezza completa del contenitore
+      margin-left: 20px; // Riduci il margine sinistro
+      margin-right: 20px; // Riduci il margine destro
+
+    .focus, .playSpoti {
+        flex-direction: column; // Imposta la direzione in colonna per i contenuti
+        align-items: flex-start; // Allinea i contenuti a sinistra
+        padding: 10px; // Riduci il padding per adattarsi al contenuto
+    }
+
+    .focus_cards, .playSpoti_cards {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); // Riduci la larghezza delle colonne nella griglia
+        padding: 5px; // Riduci il padding per adattarsi al contenuto
+    }
+}
+}

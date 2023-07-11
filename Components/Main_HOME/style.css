@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "focus focus focus focus focus" "card card card card card" "play play play play play" "card card card card card";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin-left: 370px;
+  margin-bottom: 100px;
+  background-color: #121212;
+  border-radius: 15px;
+  padding: 20px;
+  gap: 10px;
+}
+.container .focus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 60px;
+  width: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #121212;
+}
+.container .focus div {
+  margin-top: 10px;
+  color: white;
+}
+.container .focus .head1 {
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+.container .focus .head1:hover {
+  text-decoration: underline;
+}
+.container .focus .head2 {
+  font-weight: bold;
+  text-decoration: none;
+  color: #999898;
+  margin-right: 10px;
+}
+.container .focus .head2:hover {
+  text-decoration: underline;
+}
+.container .focus_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .focus_cards div {
+  height: 240px;
+  width: 185px;
+  background-color: #242424;
+}
+.container .playSpoti {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  width: auto;
+  background-color: #121212;
+}
+.container .playSpoti div {
+  color: white;
+}
+.container .playSpoti .head3 {
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+.container .playSpoti .head3:hover {
+  text-decoration: underline;
+}
+.container .playSpoti .head4 {
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #999898;
+}
+.container .playSpoti .head4:hover {
+  text-decoration: underline;
+}
+.container .playSpoti_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .playSpoti_cards div {
+  height: 240px;
+  width: 185px;
+  background-color: #242424;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container .focus, .container .playSpoti {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .container .focus_cards, .container .playSpoti_cards {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    padding: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
