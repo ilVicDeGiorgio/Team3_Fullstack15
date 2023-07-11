@@ -1,0 +1,147 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+  width: 190px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+body main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  background: linear-gradient(#849fac, #4b5a61);
+  padding: 100px 20px 20px 20px;
+}
+body main .immagine {
+  width: 30%;
+  display: flex;
+  height: 192px;
+  width: 192px;
+  flex-shrink: 0;
+  align-self: flex-end;
+  align-items: flex-end;
+  z-index: 0;
+}
+body main .immagine img {
+  height: inherit;
+  width: inherit;
+  border-radius: 5px;
+  position: relative;
+}
+body main .playlist {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  justify-content: flex-end;
+  z-index: 0;
+}
+body main .playlist > p:nth-child(3) {
+  color: #b3b3b3;
+}
+body main .playlist h1 {
+  margin: 0.08em 0px 0.12em;
+  font-size: 5rem;
+}
+body main .playlist section {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+body main .playlist section img {
+  border-radius: 50%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */

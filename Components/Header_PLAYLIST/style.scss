@@ -1,0 +1,65 @@
+@import "resets";
+
+body {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+
+  main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(#849fac, #4b5a61);
+    padding: 100px 20px 20px 20px;
+
+    .immagine {
+      width: 30%;
+      display: flex;
+      height: 192px;
+      width: 192px;
+      flex-shrink: 0;
+      align-self: flex-end;
+      align-items: flex-end;
+      z-index: 0;
+
+      img {
+        height: inherit;
+        width: inherit;
+        border-radius: 5px;
+        position: relative;
+      }
+    }
+    .playlist {
+      display: flex;
+      flex: 1;
+      flex-flow: column;
+      justify-content: flex-end;
+      z-index: 0;
+
+      > p:nth-child(3) {
+        color: #b3b3b3;
+      }
+
+      h1 {
+        margin: 0.08em 0px 0.12em;
+        font-size: 5rem;
+      }
+
+      section {
+        display: flex;
+        height: 2rem;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 8px;
+
+        img {
+          border-radius: 50%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
