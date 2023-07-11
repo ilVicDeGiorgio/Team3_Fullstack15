@@ -1,0 +1,33 @@
+@import "reset.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 260px;
+
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 10px;
+
+  img {
+    border-radius: 10px;
+  }
+
+  h1 {
+    color: #fff;
+  }
+
+  p {
+    color: rgb(167, 167, 167);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

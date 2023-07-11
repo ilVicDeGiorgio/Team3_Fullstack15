@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 2rem;
+
+  nav {
+    height: 3rem;
+    background-color: #242424;
+    display: flex;
+    padding: 5px 10px;
+
+    justify-content: space-between;
+    max-height: 3rem;
+    align-items: center;
+
+    .container_arrow {
+      display: flex;
+      gap: 1rem;
+      color: aliceblue;
+      fill: currentColor;
+    }
+
+    .sec2 {
+      display: flex;
+      gap: 1rem;
+      height: 100%;
+
+      .Container_link {
+        display: flex;
+        align-items: center;
+
+        gap: 1rem;
+        a {
+          color: beige;
+          text-transform: capitalize;
+          text-decoration: none;
+
+          &:hover {
+            color: aliceblue;
+            font-size: 1.1em;
+            transition: font-size 0.3s;
+          }
+        }
+      }
+      .container_buttons {
+        display: flex;
+        gap: 0.6rem;
+        .iscriviti {
+          color: aliceblue;
+          background-color: #242424;
+          border: none;
+        }
+        .accedi {
+          padding: 10px;
+          background-color: aliceblue;
+          border: none;
+          border-radius: 500px;
+        }
+      }
+    }
+  }
+}
