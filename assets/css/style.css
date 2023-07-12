@@ -1,14 +1,14 @@
 @import url("../../components/common.css");
-@import url("../../components/Card_HOME/index.css");
-@import url("../../components/Header_Aside_HOME/index.css");
-@import url("../../components/Aside_Content_HOME/index.css");
-@import url("../../components/Navbar_HOME/index.css");
-@import url("../../components/footer1_home/index.css");
-@import url("../../components/footer2_home/index.css");
-@import url("../../components/footer3_sticky_home/index.css");
-@import url("../../components/Main_HOME/index.css");
-@import url("../../components/ListaBrani_PLAYLIST/index.css");
-@import url("../../components/Navbar_PLAYLIST/index.css");
+@import url("../../components/Card_HOME/style.css");
+@import url("../../components/Header_Aside_HOME/style.css");
+@import url("../../components/Aside_Content_HOME/style.css");
+@import url("../../components/Navbar_HOME/style.css");
+@import url("../../components/footer1_home/style.css");
+@import url("../../components/footer2_home/style.css");
+@import url("../../components/footer3_sticky_home/style.css");
+@import url("../../components/Main_HOME/style.css");
+@import url("../../components/ListaBrani_PLAYLIST/style.css");
+@import url("../../components/Navbar_PLAYLIST/style.css");
 @import url("home.css");
 @import url("album.css");
 
