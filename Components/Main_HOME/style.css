@@ -14,9 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  width: 100%;
-  margin-left: 370px;
-  margin-bottom: 100px;
+  width: auto;
   background-color: #121212;
   border-radius: 15px;
   padding: 20px;
@@ -62,8 +60,8 @@ body {
   justify-content: space-around;
 }
 .container .focus_cards div {
-  height: 240px;
-  width: 185px;
+  height: 15rem;
+  width: 11rem;
   background-color: #242424;
 }
 .container .playSpoti {
@@ -102,24 +100,7 @@ body {
   justify-content: space-around;
 }
 .container .playSpoti_cards div {
-  height: 240px;
-  width: 185px;
+  height: 15rem;
+  width: 11rem;
   background-color: #242424;
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .container .focus, .container .playSpoti {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-  }
-  .container .focus_cards, .container .playSpoti_cards {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    padding: 5px;
-  }
 }/*# sourceMappingURL=style.css.map */

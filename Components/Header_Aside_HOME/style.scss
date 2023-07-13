@@ -11,6 +11,7 @@
     .container {
     display: flex;
     flex-direction: column;
+    height: auto;
     width: 430px;
     margin-left: 2px;
     margin-top: 8px;
@@ -31,6 +32,13 @@
             margin-top: 10px;
             color: rgb(234, 234, 234);
 
+            a :hover {
+                color: white;
+                fill: currentColor;
+            }
+
+            
+
             .svg_home {
                 display: flex;
                 flex-direction: row;
@@ -44,12 +52,6 @@
                 gap: 10px;
                 font-weight: bold;
             }
-
-            & :hover {
-                color: white;
-                fill: currentColor;
-            }
-
         }
         
         .container__svg__item1 {
@@ -61,8 +63,6 @@
             a {
                 color: #A7A7A7;
                 font-weight: bold;
-
-                
             }
 
             

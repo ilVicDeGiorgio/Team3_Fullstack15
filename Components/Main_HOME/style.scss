@@ -19,9 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 100%;
-    margin-left: 370px;
-    margin-bottom: 100px;
+    width: auto;
     background-color: #121212;
     border-radius: 15px;
     padding: 20px;
@@ -76,8 +74,8 @@ body {
         justify-content: space-around;
 
         div {
-            height: 240px;
-            width: 185px;
+            height: 15rem;
+            width: 11rem;
             background-color: #242424;
         }
     }
@@ -124,28 +122,9 @@ body {
         justify-content: space-around;
 
         div {
-            height: 240px;
-            width: 185px;
+            height: 15rem;
+            width: 11rem;
             background-color: #242424;
         }
     }
-}
-
-@media (max-width: 768px) {
-    .container {
-      max-width: 100%; // Utilizza la larghezza completa del contenitore
-      margin-left: 20px; // Riduci il margine sinistro
-      margin-right: 20px; // Riduci il margine destro
-
-    .focus, .playSpoti {
-        flex-direction: column; // Imposta la direzione in colonna per i contenuti
-        align-items: flex-start; // Allinea i contenuti a sinistra
-        padding: 10px; // Riduci il padding per adattarsi al contenuto
-    }
-
-    .focus_cards, .playSpoti_cards {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); // Riduci la larghezza delle colonne nella griglia
-        padding: 5px; // Riduci il padding per adattarsi al contenuto
-    }
-}
 }
