@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: large;
-  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .body1 {
@@ -11,8 +10,8 @@
 .body1 .container {
   display: flex;
   flex-direction: column;
-  height: auto;
-  width: 430px;
+  height: 100%;
+  width: 100%;
   margin-left: 2px;
   margin-top: 8px;
   border-color: transparent;
