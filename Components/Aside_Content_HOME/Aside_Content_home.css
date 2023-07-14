@@ -16,9 +16,10 @@ body {
   flex-direction: column;
   align-items: auto;
   justify-content: center;
-  height: 550px;
-  width: 390px;
-  
+  height: 100vh;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
   border-radius: 15px;
 }
 
@@ -173,7 +174,7 @@ body {
   flex: wrap;
   justify-content: start;
   background-color: #121212;
-  height: 100%;
+  height: 400px;
   gap: 16px;
   padding: 10px;
 }
@@ -221,4 +222,4 @@ body {
 .button .footer_svg {
   color: white;
   fill: currentColor;
-}/*# sourceMappingURL=Aside_Content.css.map */
+}/*# sourceMappingURL=Aside_Content_home.css.map */
