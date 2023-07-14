@@ -5,12 +5,12 @@
 }
 
 .body1 {
-  background-color: black;
+  background-color: #242424;
 }
-.body1 .container {
+.body1 .containerh {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  background-color: #242424;
   width: 100%;
   margin-left: 2px;
   margin-top: 8px;
@@ -19,11 +19,11 @@
   border-radius: 16px;
   gap: 10px;
 }
-.body1 .container .container__svg {
+.body1 .containerh .container__svg {
   margin-right: 0px;
   margin-left: 20px;
 }
-.body1 .container .container__svg div {
+.body1 .containerh .container__svg div {
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -31,33 +31,33 @@
   margin-top: 10px;
   color: rgb(234, 234, 234);
 }
-.body1 .container .container__svg div a :hover {
+.body1 .containerh .container__svg div a :hover {
   color: white;
   fill: currentColor;
 }
-.body1 .container .container__svg div .svg_home {
+.body1 .containerh .container__svg div .svg_home {
   display: flex;
   flex-direction: row;
   gap: 10px;
   font-weight: bold;
 }
-.body1 .container .container__svg div .svg_search {
+.body1 .containerh .container__svg div .svg_search {
   display: flex;
   flex-direction: row;
   gap: 10px;
   font-weight: bold;
 }
-.body1 .container .container__svg .container__svg__item1 {
+.body1 .containerh .container__svg .container__svg__item1 {
   display: flex;
   text-decoration: none;
   margin-left: 20px;
   fill: currentColor;
 }
-.body1 .container .container__svg .container__svg__item1 a {
+.body1 .containerh .container__svg .container__svg__item1 a {
   color: #A7A7A7;
   font-weight: bold;
 }
-.body1 .container .container__svg .container__svg__item2 {
+.body1 .containerh .container__svg .container__svg__item2 {
   display: flex;
   text-decoration: none;
   color: #A7A7A7;

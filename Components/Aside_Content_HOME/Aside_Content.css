@@ -171,7 +171,6 @@ body {
 
 .asideContainer_footer {
   display: flex;
-  flex: wrap;
   justify-content: start;
   background-color: #121212;
   height: 400px;
