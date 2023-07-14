@@ -16,8 +16,8 @@ body {
   flex-direction: column;
   align-items: auto;
   justify-content: center;
-  height: 100vh;
-  width: 100%;
+  height: 550px;
+  width: 390px;
   margin-top: 10px;
   margin-left: 10px;
   border-radius: 15px;
@@ -222,4 +222,4 @@ body {
 .button .footer_svg {
   color: white;
   fill: currentColor;
-}/*# sourceMappingURL=Aside_Content_home.css.map */
+}/*# sourceMappingURL=Aside_Content.css.map */
